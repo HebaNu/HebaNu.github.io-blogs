@@ -1,0 +1,11 @@
+"0","reticulate::repl_python()"
+"0","reticulate::repl_python()"
+"2","  File ""<string>"", line 1
+    reticulate::repl_python()
+               ^
+SyntaxError: invalid syntax
+"
+"0","import os"
+"0","print(os.getcwd())"
+"1","C:\Users\NUSAI\Desktop\Machine learning\HebaNu.github.io\posts\Probability theory and random variables
+"

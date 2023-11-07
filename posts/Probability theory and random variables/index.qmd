@@ -6,9 +6,10 @@ categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-Check the working directory
+Check the working director
 
 ```{python}
 import os
 print(os.getcwd())
+
 ```
