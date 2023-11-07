@@ -3,7 +3,7 @@ title: "Probability theory and random variables"
 author: "Heba Nusair"
 date: "2023-11-06"
 categories: [news, code, analysis]
-image: "image.jpg"
+image: "Naive-Bayes-Algorithm.jpg"
 ---
 
 Check the working director
@@ -11,14 +11,5 @@ Check the working director
 ```{python}
 import os
 print(os.getcwd())
-
-```
-
-import pandas as pd
-
-```{python}
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
 
 ```
