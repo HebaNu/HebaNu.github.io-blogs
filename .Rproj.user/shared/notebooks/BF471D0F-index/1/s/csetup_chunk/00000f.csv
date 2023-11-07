@@ -1,0 +1,11 @@
+"0","quit"
+"0","quit"
+"1","function (save = ""default"", status = 0, runLast = TRUE) 
+"
+"1",".Internal(quit(save, status, runLast))
+"
+"1","<bytecode: 0x000001c530aaa9b0>
+"
+"1","<environment: namespace:base>
+"
+"0","library(reticulate)"

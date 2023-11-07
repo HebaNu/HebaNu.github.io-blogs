@@ -1,7 +1,7 @@
 {
-  "hash": "cd7ac733a1ddaef615b931513b77fc7e",
+  "hash": "7b7e2ff476adda762fa92f26c0ae6833",
   "result": {
-    "markdown": "---\ntitle: \"Probability theory and random variables\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news, code, analysis]\nimage: \"Naive-Bayes-Algorithm.jpg\"\n---\n\nCheck the working director\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport os\nprint(os.getcwd())\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nC:\\Users\\NUSAI\\Desktop\\Machine learning\\HebaNu.github.io\\posts\\Probability theory and random variables\n```\n:::\n:::\n\n\nimport pandas as pd\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import LabelEncoder\n```\n:::\n\n\nLoading the data\n\n",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news,research, code, analysis]\nimage: \"image.jpg\"\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\n```\n:::\n\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\n# Using recommended pandas.Index with dtype=float\nindex = pd.Index([1.1, 2.2, 3.3], dtype=float)\n```\n:::\n\n\nThis is a post with executable code\n\n::: {.cell execution_count=3}\n``` {.python .cell-code}\nimport pandas as pd\n# Load your survey data\ndata = pd.read_excel('Post1.xlsx')\n```\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],
