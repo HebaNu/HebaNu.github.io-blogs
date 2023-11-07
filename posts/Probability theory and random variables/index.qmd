@@ -6,8 +6,9 @@ categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+Check the working directory
 
-```{r}
-1 + 1
+```{python}
+import os
+print(os.getcwd())
 ```
