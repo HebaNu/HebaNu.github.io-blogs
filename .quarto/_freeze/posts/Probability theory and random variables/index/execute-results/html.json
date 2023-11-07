@@ -1,14 +1,11 @@
 {
-  "hash": "0414cf90b7fe9f6b92a11b6348348334",
+  "hash": "a9733d03ffaafb3b66f7bd228aed5fcb",
   "result": {
-    "markdown": "---\ntitle: \"Probability theory and random variables\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [],
-    "filters": [
-      "rmarkdown/pagebreak.lua"
+    "markdown": "---\ntitle: \"Probability theory and random variables\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\nCheck the working director\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport os\nprint(os.getcwd())\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nC:\\Users\\NUSAI\\Desktop\\Machine learning\\HebaNu.github.io\\posts\\Probability theory and random variables\n```\n:::\n:::\n\n\nimport pandas as pd\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import LabelEncoder\n```\n:::\n\n\n",
+    "supporting": [
+      "index_files"
     ],
-    "includes": {},
-    "engineDependencies": {},
-    "preserve": {},
-    "postProcess": true
+    "filters": [],
+    "includes": {}
   }
 }
