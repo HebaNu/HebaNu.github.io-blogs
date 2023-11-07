@@ -1,0 +1,14 @@
+{
+  "hash": "0414cf90b7fe9f6b92a11b6348348334",
+  "result": {
+    "markdown": "---\ntitle: \"Probability theory and random variables\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

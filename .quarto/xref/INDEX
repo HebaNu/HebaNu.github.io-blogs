@@ -10,5 +10,20 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "184b4761"
+  },
+  "posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.qmd": {
+    "index.html": "e69363d8"
+  },
+  "posts/Classification/index.qmd": {
+    "index.html": "41daf271"
+  },
+  "posts/Clustering/index.qmd": {
+    "index.html": "3a8f26b6"
+  },
+  "posts/Linear and nonlinear regression/index.qmd": {
+    "index.html": "2dcdd1dc"
+  },
+  "posts/Probability theory and random variables/index.qmd": {
+    "index.html": "c029cd3f"
   }
 }
