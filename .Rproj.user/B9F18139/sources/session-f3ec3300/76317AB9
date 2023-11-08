@@ -1,14 +1,14 @@
 {
-    "id": "DED8A4B2",
-    "path": "C:/Users/NUSAI/Desktop/Machine learning/HebaNu.github.io/posts/Probability theory and random variables/index.qmd",
-    "project_path": "posts/Probability theory and random variables/index.qmd",
+    "id": "76317AB9",
+    "path": "C:/Users/NUSAI/Desktop/Machine learning/HebaNu.github.io/posts/Linear and nonlinear regression/index.qmd",
+    "project_path": "posts/Linear and nonlinear regression/index.qmd",
     "type": "quarto_markdown",
-    "hash": "2994363870",
+    "hash": "1101819199",
     "contents": "",
     "dirty": false,
-    "created": 1699390571138.0,
+    "created": 1699415641899.0,
     "source_on_save": true,
-    "relative_order": 1,
+    "relative_order": 4,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,17 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "53:0",
+        "rmdVisualModeLocation": "87:0",
         "cursorPosition": "0,0",
-        "scrollLine": "0",
-        "last_setup_crc32": ""
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1699415783,
+    "lastKnownWriteTime": 1699415672,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1699415783547,
+    "last_content_update": 1699415672500,
     "read_only": false,
     "read_only_alternatives": []
 }

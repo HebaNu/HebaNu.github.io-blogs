@@ -3,11 +3,15 @@ title: "Probability theory and random variables"
 author: "Heba Nusair"
 date: "2023-11-06"
 categories: [news, code, analysis]
-image: "image.jpg"
+image: "Capture"
 ---
 
 This is a post with executable code.
 
 ```{r}
 1 + 1
+```
+
+```{python}
+
 ```
