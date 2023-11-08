@@ -3,15 +3,47 @@ title: "Probability theory and random variables"
 author: "Heba Nusair"
 date: "2023-11-06"
 categories: [news, code, analysis]
-image: "Capture"
+image: "Capture.JPG"
 ---
 
-This is a post with executable code.
-
-```{r}
-1 + 1
-```
+This project requires Python 3.7 or above:
 
 ```{python}
 
+import sys
+
+assert sys.version_info >= (3, 7)
 ```
+
+Scikit-Learn ≥1.0.1 is required:
+
+```{python}
+from packaging import version
+import sklearn
+
+assert version.parse(sklearn.__version__) >= version.parse("1.0.1")
+```
+
+Let's define the default font sizes, to plot pretty figures:
+
+```{python}
+import matplotlib.pyplot as plt
+
+plt.rc('font', size=12)
+plt.rc('axes', labelsize=14, titlesize=14)
+plt.rc('legend', fontsize=12)
+plt.rc('xtick', labelsize=10)
+plt.rc('ytick', labelsize=10)
+```
+
+Make this notebook's output stable across runs:
+```{python}
+import numpy as np
+
+np.random.seed(42)
+```
+
+
+
+
+
