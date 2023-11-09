@@ -7,6 +7,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - Work from Home and cityscape.qmd
+      - index.qmd
       - icon: github
         href: 'https://github.com/'
       - icon: twitter
