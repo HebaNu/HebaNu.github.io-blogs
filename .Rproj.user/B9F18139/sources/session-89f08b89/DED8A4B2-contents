@@ -6,6 +6,8 @@ categories: [news, code, analysis]
 image: "Capture.JPG"
 ---
 
+***Categorical Naive Bayes***
+
 This project requires Python 3.7 or above:
 
 ```{python}
@@ -37,6 +39,7 @@ plt.rc('ytick', labelsize=10)
 ```
 
 Make this notebook's output stable across runs:
+
 ```{python}
 import numpy as np
 
@@ -47,7 +50,7 @@ np.random.seed(42)
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LinearRegression
+import seaborn as sns
 
 ```
 

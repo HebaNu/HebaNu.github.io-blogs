@@ -3,7 +3,7 @@
     "path": "C:/Users/NUSAI/Desktop/Machine learning/HebaNu.github.io/posts/Probability theory and random variables/index.qmd",
     "project_path": "posts/Probability theory and random variables/index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "252643945",
     "contents": "",
     "dirty": false,
     "created": 1699390571138.0,
@@ -18,15 +18,15 @@
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "487:159",
         "cursorPosition": "50,0",
-        "scrollLine": "0",
+        "scrollLine": "18",
         "last_setup_crc32": ""
     },
     "folds": "",
-    "lastKnownWriteTime": 1699427454,
+    "lastKnownWriteTime": 1699465448,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1699427454290,
+    "last_content_update": 1699549532278,
     "read_only": false,
     "read_only_alternatives": []
 }
