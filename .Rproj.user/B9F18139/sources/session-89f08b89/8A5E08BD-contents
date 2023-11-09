@@ -9,6 +9,7 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+code-fold: true
 ---
 
 **Important Note:** *The datasets used on these posts are entirely synthetic and should not be mistaken for real-world data. It has been created solely for educational purposes and to demonstrate data analysis techniques. Please refrain from using this data for any genuine applications.*
