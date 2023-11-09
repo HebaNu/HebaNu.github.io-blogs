@@ -2,7 +2,7 @@
 title: "About!"
 image: PictureME.jpg
 about:
-  template: jolla
+  template: solana
   links:
     - icon: twitter
       text: Twitter
