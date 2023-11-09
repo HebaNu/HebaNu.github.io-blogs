@@ -2,7 +2,8 @@ project:
   type: website
   output-dir: docs
 website:
-  title: Blogs for Scholarly Observations
+  title: "Blogs for My 
+     Scholarly Observations"
   navbar:
     right:
       - about.qmd
