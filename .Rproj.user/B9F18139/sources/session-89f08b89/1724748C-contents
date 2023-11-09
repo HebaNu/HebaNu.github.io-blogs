@@ -8,7 +8,7 @@ css: |
     align-items: center;
   }
 about:
-  template: solana
+  template: trestles
   links:
     - icon: twitter
       text: Twitter
