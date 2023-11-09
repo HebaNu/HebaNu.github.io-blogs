@@ -1,5 +1,5 @@
 [2,"\n"]
-[1,"Terminating existing preview server....DONE\n\nRendering:\n"]
+[1,"Rendering:\n"]
 [1,"\r[1/7] about.qmd\n"]
 [1,"\r[2/7] index.qmd\n"]
 [1,"\r[3/7] posts\\Anomaly-outlier detection DBSCAN labels for scatter plot\\index.qmd\n"]
@@ -8,5 +8,5 @@
 [1,"\r[6/7] posts\\Linear and nonlinear regression\\index.qmd\n"]
 [1,"\r[7/7] posts\\Probability theory and random variables\\index.qmd\n"]
 [1,"\n"]
-[1,"Watching files for changes\nBrowse at http://localhost:6942/\n"]
+[1,"Watching files for changes\nBrowse at http://localhost:4820/\n"]
 [1,"GET: /\n"]
