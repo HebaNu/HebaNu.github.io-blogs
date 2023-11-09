@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/Probability theory and random variables/index.html",
+    "href": "posts/Probability theory and random variables/index.html",
+    "title": "Probability theory and random variables",
+    "section": "",
+    "text": "Categorical Naive Bayes\nThis project requires Python 3.7 or above:\n\nimport sys\n\nassert sys.version_info &gt;= (3, 7)\n\nScikit-Learn ≥1.0.1 is required:\n\nfrom packaging import version\nimport sklearn\n\nassert version.parse(sklearn.__version__) &gt;= version.parse(\"1.0.1\")\n\nLet’s define the default font sizes, to plot pretty figures:\n\nimport matplotlib.pyplot as plt\n\nplt.rc('font', size=12)\nplt.rc('axes', labelsize=14, titlesize=14)\nplt.rc('legend', fontsize=12)\nplt.rc('xtick', labelsize=10)\nplt.rc('ytick', labelsize=10)\n\nMake this notebook’s output stable across runs:\n\nimport numpy as np\n\nnp.random.seed(42)\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\nimport seaborn as sns"
+  },
+  {
+    "objectID": "posts/Clustering/index.html",
+    "href": "posts/Clustering/index.html",
+    "title": "Clustering",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
+    "href": "posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
+    "title": "Anomaly-outlier detection DBSCAN labels for scatter plot",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About!",
+    "section": "",
+    "text": "Hi,\nThis is Heba Nusair, a Ph.D. Candidate in Landscape Architecture at Virginia Tech. My doctoral research focuses on predicting the impact of the Work-from-Home paradigm on urban sprawl using Agent-Based Models and Artificial Intelligence.\nBut that’s not all – I’m here to share my findings with you through a series of engaging blog posts. In some of these, I’ve even used synthesized data sets to shed light on different facets of the outcomes. So, whether you’re passionate about urban planning or just curious about the future of work, I invite you to join me in exploring these fascinating insights.\nLet’s dive into the world of urban development and the changing nature of work.\nI hope you enjoy reading!\nImportant Note: The datasets used on these posts are entirely synthetic and should not be mistaken for real-world data. It has been created solely for educational purposes and to demonstrate data analysis techniques. Please refrain from using this data for any genuine applications.\n\nImage provided by Shutterstock"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Research Insights Explorer Using Machine learning",
+    "section": "",
+    "text": "Important Note: The datasets used on these posts are entirely synthetic and should not be mistaken for real-world data. It has been created solely for educational purposes and to demonstrate data analysis techniques. Please refrain from using this data for any genuine applications.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nAnomaly-outlier detection DBSCAN labels for scatter plot\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHeba Nusair\n\n\n\n\n\n\n  \n\n\n\n\nClassificcation\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHeba Nusair\n\n\n\n\n\n\n  \n\n\n\n\nLinear and nonlinear regression\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHeba Nusair\n\n\n\n\n\n\n  \n\n\n\n\nProbability theory and random variables\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 6, 2023\n\n\nHeba Nusair\n\n\n\n\n\n\n  \n\n\n\n\nClustering\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nplot\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nHeba Nusair\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Classification/index.html",
+    "href": "posts/Classification/index.html",
+    "title": "Classificcation",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/Linear and nonlinear regression/index.html",
+    "href": "posts/Linear and nonlinear regression/index.html",
+    "title": "Linear and nonlinear regression",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  }
+]
