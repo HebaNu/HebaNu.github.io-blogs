@@ -2,13 +2,14 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Blogs for My 
-     Scholarly Observations"
+  title: My Scholarly Observations
   navbar:
+  
     right:
-      - about.qmd
       - Work from Home and cityscape.qmd
-      - index.qmd
+      - Research Insights Explorer Using Machine learning.qmd
+      - about.qmd
+      
       - icon: github
         href: 'https://github.com/'
       - icon: twitter

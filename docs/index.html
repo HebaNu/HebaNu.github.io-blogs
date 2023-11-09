@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blogs for My Scholarly Observations - Research Insights Explorer Using Machine learning</title>
+<title>My Scholarly Observations - Welcome to my posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -71,9 +105,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -105,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Blogs for My Scholarly Observations</span>
+    <span class="navbar-title">My Scholarly Observations</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -115,16 +149,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About!</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./Work from Home and cityscape.html" rel="" target="">
  <span class="menu-text">Introduction: Work From Home and Cityscape</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./Research Insights Explorer Using Machine learning.html" rel="" target="">
  <span class="menu-text">Research Insights Explorer Using Machine learning</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About!</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
@@ -147,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Research Insights Explorer Using Machine learning</h1>
+      <h1 class="title">Welcome to my posts</h1>
                       </div>
   </div>
     
@@ -172,29 +206,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>Important Note:</strong> <em>The datasets used on these posts are entirely synthetic and should not be mistaken for real-world data. It has been created solely for educational purposes and to demonstrate data analysis techniques. Please refrain from using this data for any genuine applications.</em></p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>quarto render</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415853257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415853257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html"> <img src="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html">
+<h3 class="no-anchor listing-title">
 Anomaly-outlier detection DBSCAN labels for scatter plot
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -206,31 +240,36 @@ code
 analysis
 </div>
 </div>
-<div class="card-text listing-description">
+<a href="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html">
+<div class="listing-description">
 This is a post with executable code.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Heba Nusair
-</div>
-<div class="listing-date">
-Nov 6, 2023
-</div>
-</div>
-</div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415553626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/Classification/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/Classification/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="metadata">
+<a href="./posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html">
+<div class="listing-date">
+Nov 6, 2023
+</div>
+<div class="listing-author">
+Heba Nusair
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415553626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/Classification/index.html"> <img src="./posts/Classification/image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Classification/index.html">
+<h3 class="no-anchor listing-title">
 Classificcation
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -242,31 +281,36 @@ code
 analysis
 </div>
 </div>
-<div class="card-text listing-description">
+<a href="./posts/Classification/index.html">
+<div class="listing-description">
 This is a post with executable code.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Heba Nusair
-</div>
-<div class="listing-date">
-Nov 6, 2023
-</div>
-</div>
-</div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415672472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/Linear and nonlinear regression/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/Linear and nonlinear regression/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="metadata">
+<a href="./posts/Classification/index.html">
+<div class="listing-date">
+Nov 6, 2023
+</div>
+<div class="listing-author">
+Heba Nusair
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699415672472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/Linear and nonlinear regression/index.html"> <img src="./posts/Linear and nonlinear regression/image.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Linear and nonlinear regression/index.html">
+<h3 class="no-anchor listing-title">
 Linear and nonlinear regression
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -278,31 +322,36 @@ code
 analysis
 </div>
 </div>
-<div class="card-text listing-description">
+<a href="./posts/Linear and nonlinear regression/index.html">
+<div class="listing-description">
 This is a post with executable code.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Heba Nusair
-</div>
-<div class="listing-date">
-Nov 6, 2023
-</div>
-</div>
-</div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699566959307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/Probability theory and random variables/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/Probability theory and random variables/Capture.JPG" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<div class="metadata">
+<a href="./posts/Linear and nonlinear regression/index.html">
+<div class="listing-date">
+Nov 6, 2023
+</div>
+<div class="listing-author">
+Heba Nusair
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="news,code,analysis" data-listing-date-sort="1699246800000" data-listing-file-modified-sort="1699566959307" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/Probability theory and random variables/index.html"> <img src="./posts/Probability theory and random variables/Capture.JPG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Probability theory and random variables/index.html">
+<h3 class="no-anchor listing-title">
 Probability theory and random variables
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -314,29 +363,36 @@ code
 analysis
 </div>
 </div>
-<div class="card-text listing-description">
+<a href="./posts/Probability theory and random variables/index.html">
+<div class="listing-description">
 <strong><em>Categorical Naive Bayes</em></strong>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Heba Nusair
+</a>
 </div>
+<div class="metadata">
+<a href="./posts/Probability theory and random variables/index.html">
 <div class="listing-date">
 Nov 6, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Heba Nusair
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="news,code,plot" data-listing-date-sort="1698984000000" data-listing-file-modified-sort="1699415615569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./posts/Clustering/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\Clustering\thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="news,code,plot" data-listing-date-sort="1698984000000" data-listing-file-modified-sort="1699415615569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/Clustering/index.html"> <p class="card-img-top"><img src="posts\Clustering\thumbnail.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/Clustering/index.html">
+<h3 class="no-anchor listing-title">
 Clustering
-</h5>
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -348,20 +404,22 @@ code
 plot
 </div>
 </div>
-<div class="card-text listing-description">
+<a href="./posts/Clustering/index.html">
+<div class="listing-description">
 This is the first post in a Quarto blog. Welcome!
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Heba Nusair
+</a>
 </div>
+<div class="metadata">
+<a href="./posts/Clustering/index.html">
 <div class="listing-date">
 Nov 3, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Heba Nusair
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
