@@ -1,51 +1,21 @@
 [
   {
-    "listing": "/HebaNu.github.io-blogs/index.html",
-    "items": [
-      "/HebaNu.github.io-blogs/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
-      "/HebaNu.github.io-blogs/posts/Classification/index.html",
-      "/HebaNu.github.io-blogs/posts/Linear and nonlinear regression/index.html",
-      "/HebaNu.github.io-blogs/posts/Probability theory and random variables/index.html",
-      "/HebaNu.github.io-blogs/posts/Clustering/index.html"
-    ]
-  },
-  {
-    "listing": "/HebaNu.github.io-blogs/Research Insights Explorer Using Machine learning.html",
-    "items": [
-      "/HebaNu.github.io-blogs/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
-      "/HebaNu.github.io-blogs/posts/Classification/index.html",
-      "/HebaNu.github.io-blogs/posts/Linear and nonlinear regression/index.html",
-      "/HebaNu.github.io-blogs/posts/Probability theory and random variables/index.html",
-      "/HebaNu.github.io-blogs/posts/Clustering/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/HebaNu.github.io-blogs/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
-      "/HebaNu.github.io-blogs/posts/Classification/index.html",
-      "/HebaNu.github.io-blogs/posts/Linear and nonlinear regression/index.html",
-      "/HebaNu.github.io-blogs/posts/Probability theory and random variables/index.html",
       "/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
       "/posts/Classification/index.html",
       "/posts/Linear and nonlinear regression/index.html",
       "/posts/Probability theory and random variables/index.html",
-      "/HebaNu.github.io-blogs/posts/Clustering/index.html",
       "/posts/Clustering/index.html"
     ]
   },
   {
     "listing": "/Research Insights Explorer Using Machine learning.html",
     "items": [
-      "/HebaNu.github.io-blogs/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
-      "/HebaNu.github.io-blogs/posts/Classification/index.html",
-      "/HebaNu.github.io-blogs/posts/Linear and nonlinear regression/index.html",
-      "/HebaNu.github.io-blogs/posts/Probability theory and random variables/index.html",
       "/posts/Anomaly-outlier detection DBSCAN labels for scatter plot/index.html",
       "/posts/Classification/index.html",
       "/posts/Linear and nonlinear regression/index.html",
       "/posts/Probability theory and random variables/index.html",
-      "/HebaNu.github.io-blogs/posts/Clustering/index.html",
       "/posts/Clustering/index.html"
     ]
   }
