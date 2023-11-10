@@ -1,0 +1,11 @@
+{
+  "hash": "0ef36b001ecec3cc4f0e01d82435ec7f",
+  "result": {
+    "markdown": "---\ntitle: \"Probability theory and random variables\"\nauthor: \"Heba Nusair\"\ndate: \"2023-11-06\"\ncategories: [news, code, analysis]\nimage: \"Capture.JPG\"\ncode-fold: true\n---\n\n***Categorical Naive Bayes***\n\nThis project requires Python 3.7 or above:\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport sys\n\nassert sys.version_info >= (3, 7)\n```\n:::\n\n\nScikit-Learn ≥1.0.1 is required:\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nfrom packaging import version\nimport sklearn\n\nassert version.parse(sklearn.__version__) >= version.parse(\"1.0.1\")\n```\n:::\n\n\nLet's define the default font sizes, to plot pretty figures:\n\n::: {.cell execution_count=3}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\n\nplt.rc('font', size=12)\nplt.rc('axes', labelsize=14, titlesize=14)\nplt.rc('legend', fontsize=12)\nplt.rc('xtick', labelsize=10)\nplt.rc('ytick', labelsize=10)\n```\n:::\n\n\nMake this notebook's output stable across runs:\n\n::: {.cell execution_count=4}\n``` {.python .cell-code}\nimport numpy as np\n\nnp.random.seed(42)\n```\n:::\n\n\n::: {.cell execution_count=5}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\nimport seaborn as sns\n```\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
